@@ -10,12 +10,12 @@ var homepage_vns_url='';
 var homepage_cards_url=''
 var language_zh=false;
 if(sessionStorage.getItem("language")==="zh"){
-    homepage_vns_url= "/assets/json/vns_collection_zh.json";
-    homepage_cards_url="/assets/json/anicard_dataset_zh.json";
+    homepage_vns_url= "./assets/json/vns_collection_zh.json";
+    homepage_cards_url="./assets/json/anicard_dataset_zh.json";
     language_zh=true
 }else{
-    homepage_vns_url = "/assets/json/vns_collection.json";
-    homepage_cards_url="/assets/json/anicard_dataset.json";
+    homepage_vns_url = "./assets/json/vns_collection.json";
+    homepage_cards_url="./assets/json/anicard_dataset.json";
     language_zh=false
 }
 
