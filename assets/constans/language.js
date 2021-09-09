@@ -4,7 +4,7 @@ var language={
     "LANGUAGE_ENGLISH_ZH":"英文",
     "LANGUAGE_ENGLISH_EN":"English",
     "PAGE_TITLE_ZH":"数据装饰探索",
-    "PAGE_TITLE_EN":"Data Embellishment Explorer",
+    "PAGE_TITLE_EN":"Visual Embellishment Explorer",
     "HOME_ZH":"主页",
     "HOME_EN":"Home",
     "DATASET_ZH":"数据集",
