@@ -46,7 +46,6 @@ class Carouse {
                     for (let key in currentCardContent) {
                         if (key ==='url') {
                             footer.setAttribute("href",currentCardContent[key])
-                            
                         }else if(key ==='OBJECT'){
                             let object_node = document.createElement("div");
                             object_node.classList.add("card-body-object");
@@ -55,9 +54,27 @@ class Carouse {
                             object_node.innerHTML+=caption_item_html
                             caption.appendChild(object_node)
                         }else{
-                            caption_item_html = `<div class='caption-text' title='${currentCardContent[key]}'><span>${key}: </span>${currentCardContent[key]}</div>`;
-                            caption.innerHTML += caption_item_html;
-                            
+                            caption_item_html = `<div class='caption-text' title='${currentCardContent[key]}'>${key}</div>`;
+                            if(key==="NOTE"||key==="注意："){
+                                let isEn=currentCardContent[key].split("-")[0]==="en"?true:false;
+                    
+                                if(isEn){
+                                    caption_item_text_heml=`<p>${currentCardContent[key].split("-")[1]}<a class="note" href="#exploration">universal variation</a></p>`;
+                                }else{
+                                    // "zh-基本属性*指的是全局变化中的那些方法."
+                                    let splitStr=currentCardContent[key].split("-")[1].split("全局变化")
+                                    console.log(splitStr)
+                                    caption_item_text_heml=`<p>${splitStr[0]}<a class="note" href="#exploration">全局变化</a>${splitStr[1]}</p>`;
+                                }
+
+                            }
+                            else{
+                                caption_item_text_heml=`<p>${currentCardContent[key]} </p>`;
+                            }
+                            if(currentCardContent[key]!==""){
+                                caption.innerHTML += caption_item_html;
+                                caption.innerHTML+=caption_item_text_heml
+                            }
                         }
                     }
                 }

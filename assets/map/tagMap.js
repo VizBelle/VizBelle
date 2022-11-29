@@ -1,5 +1,5 @@
 var tagMap={
-    "exploration":"General exploration",
+    "exploration":"Universal variation",
     "outlier":"Emphasize value/extreme/outlier",
     "difference":"Compare difference/proportion",
     "categorization":"Summarize categorization",

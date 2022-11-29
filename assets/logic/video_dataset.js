@@ -13,8 +13,10 @@ class VideoData_Card {
         let card = document.createElement("div");
         let cardImg_Html = `<a href="${this._link}" class="card-img-top" target="_blank"><img src="./assets/image/dataset_img/${this._id}.jpg"></a>`;
         let card_body = document.createElement("div");
+        
+        let card_id=parseInt(this._id)+40
         let cardTitle_Html = `<a href="${this._link}" class="card-title" target="_blank">${this._title}</a>`;
-        let cardText_Html = `<p class="card-text"><a href="${this._link}" target="_blank">${this._source}</a><span class="hidden-id">No. ${this._id}</span></p>`;
+        let cardText_Html = `<p class="card-text"><a href="${this._link}" target="_blank">${this._source}</a><span class="hidden-id">No. ${card_id}</span></p>`;
 
         deck_single_node.classList.add("col", "video-deck-single");
         card.classList.add("card");

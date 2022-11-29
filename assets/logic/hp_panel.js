@@ -42,6 +42,14 @@ class Homepage_Panel {
                     let btn_node = this._createButton(item, extraNode_html, extraClass_toA_arr, extraAttribute_toA, methodToBtnName);
                     this._appendTo_queue(btn_node); // append btn to panel queue
                     panel_group_node.appendChild(btn_node);
+                    //add dash line
+                    if(originCate===2){
+                        let line_node = document.createElement("div");
+                        line_node.className="dash-div"
+                        let dash_html=`<hr class="hr-dashed2"></hr>`
+                        line_node.innerHTML = dash_html
+                        panel_group_node.appendChild(line_node)
+                    }
                 });
                 this._bindClickEvents(this._click_event_callback);
                 this._bindOtherListenerEvents(this._global_event_callback);
@@ -243,12 +251,12 @@ if (sessionStorage.getItem("language") === "zh") {
     homepage_vns_url = "./assets/json/vns_collection_zh.json";
     // homepage_el_url = "./assets/json/el_collection_zh.json"
     el_panel_title=[language.OBJECTS_ZH]
-    vns_panel_title = [language.EXPLORE_DATA_ZH, language.ENGAGE_CONTEXT_ZH, language.ENHANCE_AESTHETICS_ZH]
+    vns_panel_title = [language.EXPLORE_DATA_ZH, language.ENGAGE_CONTEXT_ZH, language.ENHANCE_AESTHETICS_ZH,language.NO_TARGET_ZH]
 } else {
     homepage_vns_url = "./assets/json/vns_collection.json";
     // homepage_el_url = "./assets/json/el_collection.json"
     el_panel_title=[language.OBJECTS_EN]
-    vns_panel_title = [language.EXPLORE_DATA_EN, language.ENGAGE_CONTEXT_EN, language.ENHANCE_AESTHETICS_EN]
+    vns_panel_title = [language.EXPLORE_DATA_EN, language.ENGAGE_CONTEXT_EN, language.ENHANCE_AESTHETICS_EN,language.NO_TARGET_EN]
 }
 // const vns_btn_name_template = "${VNS_tag} (${VNS_num})";
 const vns_btn_name_template = "${VNS_tag_name} (${VNS_num})";

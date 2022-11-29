@@ -256,9 +256,18 @@ class Homepage_Reminder {
         let reminder_head_node = document.createElement("div");
         let reminder_desc_node = document.createElement("div");
         let reminder_symbol_html = `<span class="reminder-symbol"></span>`;
-        let reminder_title_html = `<span class="reminder-title">${language_zh?methodToReminderTitle(tagMapZh[this._VNS_tag]):methodToReminderTitle(tagMap[this._VNS_tag])}&nbsp;</span>
+        let reminder_title_html;
+        let note=language_zh?"标注了\"*\"的基本属性指的是以下这些方法.":"Basic attributes marked with \"*\" indicate the techniques below."
+        if(this._VNS_tag==="exploration"){
+            reminder_title_html = `<span class="reminder-title">${language_zh?methodToReminderTitle(tagMapZh[this._VNS_tag]):methodToReminderTitle(tagMap[this._VNS_tag])}&nbsp;</span>
+            <span class='reminder-sum'>(${this._VNS_num})</span>
+            <span class='reminder-note'>${note}</span>`;
+        }else{
+            reminder_title_html = `<span class="reminder-title">${language_zh?methodToReminderTitle(tagMapZh[this._VNS_tag]):methodToReminderTitle(tagMap[this._VNS_tag])}&nbsp;</span>
             <span class='reminder-sum'>(${this._VNS_num})</span>
             <span class='reminder-sum-s'>SUM: ${this._VNS_num}</span>`;
+        }
+        
 
         reminder_node.classList.add("display-reminder");
         reminder_bg_node.classList.add("reminder-bg");

@@ -243,7 +243,7 @@ function modal_EventListener() {
 
 
 /* video dataset page init method */
-const video_dataset_url = "./assets/json/video_dataset.json";
+const video_dataset_url = "./assets/json/website_dataset.json";
 function videoDataset_loading() {
     const video_deck_node = document.querySelector(".video-deck");
     const empty_deck_node = document.querySelector("#empty-deck-single");
