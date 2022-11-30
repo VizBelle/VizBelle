@@ -254,7 +254,7 @@
         "card_title": "Change individual graphic appearance",
         "VNS_tag": "outlier",
         "EL_tag": "Use basic attributes*",
-        "how": "Use color/gradient color/stroke/transparencvltexture/shadow/split/shape on the target object.",
+        "how": "Use color/gradient color/stroke/transparencvltexture/ shadow/split/shape on the target object.",
         "why": "It can attract attention through basic attribute, highlighting objects that need to be emphasized.",
         "eg_content": [
             "all1"
@@ -262,7 +262,8 @@
         "eg_back_data": [
             {
                 "OBJECT": "ALL",
-                "NOTE": "en-Basic attributes* indicate the techniques in "
+                "NOTE": "en-Basic attributes* indicate the techniques in ",
+                "url":"#exploration"
             }
         ]
     },
@@ -271,7 +272,7 @@
         "card_title": "Change individual graphic appearance",
         "VNS_tag": "difference",
         "EL_tag": "Use basic attributes*",
-        "how": "Use color/gradient color/stroke/transparencvltexture/shadow/split/shape on objects.",
+        "how": "Use color/gradient color/stroke/transparencvltexture/ shadow/split/shape on objects.",
         "why": "It can make visual differences through basic attributes, showing distinctions that need comparison.",
         "eg_content": [
             "all1"
@@ -279,7 +280,8 @@
         "eg_back_data": [
             {
                 "OBJECT": "ALL",
-                "NOTE": "en-Basic attributes* indicate the techniques in "
+                "NOTE": "en-Basic attributes* indicate the techniques in ",
+                "url":"#exploration"
             }
         ]
     },
@@ -378,7 +380,7 @@
         "card_title": "Demonstrate distribution through layout",
         "VNS_tag": "distribution",
         "EL_tag": "Use scaffold",
-        "how": "Arrange elements within the boundary following a certain rule.",
+        "how": "Arrange objects within a shape.",
         "why": "It can improve the regularity of the drawing, so as to show the distribution more intuitively.",
         "eg_content":["chart-mark"],
         "eg_back_data":[
@@ -1007,7 +1009,7 @@
         "card_title": "Apply layer masks",
         "VNS_tag": "comprehension",
         "EL_tag": "Use icon/clip-art/photo",
-        "how": "Arrange multiple adjacent charts into a special shape.",
+        "how": "Arrange objects within a special shape.",
         "why": "Using layer mask can both retain the chart and image information.",
         "eg_content": [
             "chart-mark"
@@ -1187,7 +1189,7 @@
         "card_id": 44,
         "card_title": "Present through images",
         "VNS_tag": "emotion",
-        "EL_tag": "Add symbol/emoji/gesture",
+        "EL_tag": "Add symbol",
         "how": "Add image with symbols.",
         "why": "Image with rich semantic information can express emotions.",
         "eg_content": [
@@ -1206,7 +1208,7 @@
         "card_id": 45,
         "card_title": "Present through images",
         "VNS_tag": "emotion",
-        "EL_tag": "Add symbol/emoji/gesture",
+        "EL_tag": "Add emoji",
         "how": "Add image with emojis.",
         "why": "Image with rich semantic information can express emotions.",
         "eg_content": [
@@ -1225,7 +1227,7 @@
         "card_id": 46,
         "card_title": "Present through images",
         "VNS_tag": "emotion",
-        "EL_tag": "Add symbol/emoji/gesture",
+        "EL_tag": "Add gesture",
         "how": "Add image with gestures.",
         "why": "Image with rich semantic information can express emotions.",
         "eg_content": [

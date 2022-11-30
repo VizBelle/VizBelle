@@ -251,6 +251,10 @@ button.swiper-pagination-bullet {
     opacity: 1;
     background: #19AAB2;
 }
+.exploration .swiper-pagination-bullet-active{
+    opacity: 1;
+    background: #000000;
+}
 
 .swiper-pagination-white .swiper-pagination-bullet-active {
     background: #fff

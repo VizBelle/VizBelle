@@ -257,7 +257,7 @@ class Homepage_Reminder {
         let reminder_desc_node = document.createElement("div");
         let reminder_symbol_html = `<span class="reminder-symbol"></span>`;
         let reminder_title_html;
-        let note=language_zh?"标注了\"*\"的基本属性指的是以下这些方法.":"Basic attributes marked with \"*\" indicate the techniques below."
+        let note=language_zh?"标注了\"*\"的基本属性指的是以下这些方法。":"Basic attributes marked with \"*\" indicate the techniques below."
         if(this._VNS_tag==="exploration"){
             reminder_title_html = `<span class="reminder-title">${language_zh?methodToReminderTitle(tagMapZh[this._VNS_tag]):methodToReminderTitle(tagMap[this._VNS_tag])}&nbsp;</span>
             <span class='reminder-sum'>(${this._VNS_num})</span>

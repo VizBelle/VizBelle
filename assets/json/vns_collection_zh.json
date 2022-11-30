@@ -1,18 +1,18 @@
 [
     
-    {"VNS_id":1,"VNS_tag":"outlier","VNS_tag_name":"强调数值/极值/异常值","VNS_color":"#ea9081","VNS_desc":"在现有元素之外添加线框、色块、高亮、连接线等要素.\n给其他元素添加透明度.\n放大展示需要强调的元素.","VNS_num":9,"category":0},
-    {"VNS_id":2,"VNS_tag":"difference","VNS_tag_name":"对比差异/占比","VNS_color":"#efbd9c","VNS_desc":"改变单个样式：使用基本属性*.","VNS_num":1,"category":0},
-    {"VNS_id":3,"VNS_tag":"categorization","VNS_tag_name":"概括分类","VNS_color":"#e2cc6d","VNS_desc":"添加视觉辅助：添加形状.","VNS_num":1,"category":0},
-    {"VNS_id":4,"VNS_tag":"distribution","VNS_tag_name":"概括分布","VNS_color":"#c0c96f","VNS_desc":"添加视觉辅助：添加形状/线条/符号.\n排版展示分布：使用排版.","VNS_num":6,"category":0},
-    {"VNS_id":5,"VNS_tag":"trend","VNS_tag_name":"概括趋势/排序","VNS_color":"#799ea8","VNS_desc":"加强序列化呈现：使用渐变色/放大.\n添加视觉辅助：添加 形状/线条/符号.\n排版展示序列性：使用排版.","VNS_num":8,"category":0},
-    {"VNS_id":6,"VNS_tag":"association","VNS_tag_name":"概括相关性","VNS_color":"#48819b","VNS_desc":"改变样式：添加形状.","VNS_num":1,"category":0},
+    {"VNS_id":1,"VNS_tag":"outlier","VNS_tag_name":"强调数值/极值/异常值","VNS_color":"#ea9081","VNS_desc":"在现有元素之外添加线框、色块、高亮、连接线等要素。\n给其他元素添加透明度。\n放大展示需要强调的元素。","VNS_num":9,"category":0},
+    {"VNS_id":2,"VNS_tag":"difference","VNS_tag_name":"对比差异/占比","VNS_color":"#efbd9c","VNS_desc":"改变单个样式：使用基本属性*。","VNS_num":1,"category":0},
+    {"VNS_id":3,"VNS_tag":"categorization","VNS_tag_name":"概括分类","VNS_color":"#e2cc6d","VNS_desc":"添加视觉辅助：添加形状。","VNS_num":1,"category":0},
+    {"VNS_id":4,"VNS_tag":"distribution","VNS_tag_name":"概括分布","VNS_color":"#c0c96f","VNS_desc":"添加视觉辅助：添加形状/线条/符号。\n排版展示分布：使用排版。","VNS_num":6,"category":0},
+    {"VNS_id":5,"VNS_tag":"trend","VNS_tag_name":"概括趋势/排序","VNS_color":"#799ea8","VNS_desc":"加强序列化呈现：使用渐变色/放大。\n添加视觉辅助：添加 形状/线条/符号。\n排版展示序列性：使用排版。","VNS_num":8,"category":0},
+    {"VNS_id":6,"VNS_tag":"association","VNS_tag_name":"概括相关性","VNS_color":"#48819b","VNS_desc":"改变样式：添加形状。","VNS_num":1,"category":0},
     
-    {"VNS_id":7,"VNS_tag":"comprehension","VNS_tag_name":"提高理解力","VNS_color":"#706a91","VNS_desc":"应用剪贴图像：使用icon/插画/照片.\n应用图层蒙版：使用icon/插画/照片.","VNS_num":14,"category":1},
-    {"VNS_id":8,"VNS_tag":"emotion","VNS_tag_name":"传递情感","VNS_color":"#706a91","VNS_desc":"通过颜色展示：使用颜色.\n通过图像展示：添加符号/表情/动作.","VNS_num":6,"category":1},
+    {"VNS_id":7,"VNS_tag":"comprehension","VNS_tag_name":"提高理解力","VNS_color":"#706a91","VNS_desc":"应用剪贴图像：使用icon/插画/照片。\n应用图层蒙版：使用icon/插画/照片。","VNS_num":14,"category":1},
+    {"VNS_id":8,"VNS_tag":"emotion","VNS_tag_name":"传递情感","VNS_color":"#706a91","VNS_desc":"通过颜色展示：使用颜色。\n通过图像展示：添加符号/表情/动作。","VNS_num":6,"category":1},
 
-    {"VNS_id":9,"VNS_tag":"style","VNS_tag_name":"改变风格","VNS_color":"#706a91","VNS_desc":"应用漫画风格：使用手绘线条.\n应用Q版风格：使用粗描边 & 断点 & 偏移填充.\n应用渐变风格：使用渐变色.\n应用半扁平化风格：使用加深局部 & 阴影.\n应用三维风格：使用三维模型.\n应用写实拟物风格：使用照片.","VNS_num":6,"category":2},
+    {"VNS_id":9,"VNS_tag":"style","VNS_tag_name":"改变风格","VNS_color":"#706a91","VNS_desc":"应用漫画风格：使用手绘线条。\n应用Q版风格：使用粗描边 & 断点 & 偏移填充。\n应用渐变风格：使用渐变色。\n应用半扁平化风格：使用加深局部 & 阴影。\n应用三维风格：使用三维模型。\n应用写实拟物风格：使用照片。","VNS_num":6,"category":2},
 
-    {"VNS_id":0,"VNS_tag":"exploration","VNS_tag_name":"全局变化","VNS_color":"#888888","VNS_desc":"改变整体样式：使用颜色/渐变色/描边/透明度/纹理/阴影/拆分/形状.","VNS_num":8,"category":3}
+    {"VNS_id":0,"VNS_tag":"exploration","VNS_tag_name":"全局变化","VNS_color":"#888888","VNS_desc":"改变整体样式：使用颜色/渐变色/描边/透明度/纹理/阴影/拆分/形状。","VNS_num":8,"category":3}
 ]
 
 

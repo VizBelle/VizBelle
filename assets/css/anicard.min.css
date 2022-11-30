@@ -1,7 +1,7 @@
 .note,
 .note:hover{
     text-decoration:underline;
-    color: #19AAB2;
+    color: #007DFF;
 }
 .hr-dashed2{
     border: 0;
@@ -871,6 +871,10 @@ footer .footer-text {
 .style .card-inner .back .card-body-subtitle-content {
     /* margin-bottom: 1rem; */
     color: #E97273;
+}
+.exploration .card-inner .back .card-body-subtitle-content {
+    /* margin-bottom: 1rem; */
+    color: #888888;
 }
 
 .card-inner.turned-over .front {

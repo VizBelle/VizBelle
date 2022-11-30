@@ -45,6 +45,9 @@ class Carouse {
                     
                     for (let key in currentCardContent) {
                         if (key ==='url') {
+                            if(currentCardContent[key]==="#exploration"){
+                                footer.setAttribute("target","")
+                            }
                             footer.setAttribute("href",currentCardContent[key])
                         }else if(key ==='OBJECT'){
                             let object_node = document.createElement("div");
@@ -63,7 +66,6 @@ class Carouse {
                                 }else{
                                     // "zh-基本属性*指的是全局变化中的那些方法."
                                     let splitStr=currentCardContent[key].split("-")[1].split("全局变化")
-                                    console.log(splitStr)
                                     caption_item_text_heml=`<p>${splitStr[0]}<a class="note" href="#exploration">全局变化</a>${splitStr[1]}</p>`;
                                 }
 
