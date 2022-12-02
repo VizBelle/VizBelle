@@ -381,7 +381,7 @@
         "VNS_tag": "distribution",
         "EL_tag": "Use scaffold",
         "how": "Arrange objects within a shape.",
-        "why": "It can improve the regularity of the drawing, so as to show the distribution more intuitively.",
+        "why": "It can enhance regularity through scaffold, showing distribution that need to be summarized.",
         "eg_content":["chart-mark"],
         "eg_back_data":[
             {"OBJECT":"Chart mark","TITLE":"Statsministerens nyttårstale","SOURCE":"Infogram","url":"https://infogram.com/52e8d58c-8448-4150-959e-6b4202542e23"}
@@ -658,7 +658,7 @@
         "VNS_tag": "comprehension",
         "EL_tag": "Use icon/clip-art/photo",
         "how": "Overlay icon/clip-art/photo on the object.",
-        "why": "Cut-out images can activate the chart and make it more understandable.",
+        "why": "It can activate the chart and make it more understandable.",
         "eg_content": [
             "chart-mark"
         ],
@@ -677,7 +677,7 @@
         "VNS_tag": "comprehension",
         "EL_tag": "Use icon/clip-art/photo",
         "how": "Add icon/clip-art/photo to head.",
-        "why": "Cut-out images can activate the chart and make it more understandable.",
+        "why": "It can activate the chart and make it more understandable.",
         "eg_content": [
             "title",
             "chart-axis",
@@ -724,7 +724,7 @@
         "VNS_tag": "comprehension",
         "EL_tag": "Use icon/clip-art/photo",
         "how": "Add icon/clip-art/photo to cap.",
-        "why": "Cut-out images can activate the chart and make it more understandable.",
+        "why": "It can activate the chart and make it more understandable.",
         "eg_content": [
             "chart-mark"
         ],
@@ -743,7 +743,7 @@
         "VNS_tag": "comprehension",
         "EL_tag": "Use icon/clip-art/photo",
         "how": "Add icon/clip-art/photo to end.",
-        "why": "Cut-out images can activate the chart and make it more understandable.",
+        "why": "It can activate the chart and make it more understandable.",
         "eg_content": [
             "chart-axis",
             "chart-mark"
@@ -769,7 +769,7 @@
         "VNS_tag": "comprehension",
         "EL_tag": "Use icon/clip-art/photo",
         "how": "Add icon/clip-art/photo to the side",
-        "why": "Cut-out images can activate the chart and make it more understandable.",
+        "why": "It can activate the chart and make it more understandable.",
         "eg_content": [
             "title",
             "chart-axis",
@@ -823,7 +823,7 @@
         "VNS_tag": "comprehension",
         "EL_tag": "Use icon/clip-art/photo",
         "how": "Strech part of the cut-out image to represent data object.",
-        "why": "Cut-out images can activate the chart and make it more understandable.",
+        "why": "It can activate the chart and make it more understandable.",
         "eg_content": [
             "chart-mark"
         ],
@@ -842,7 +842,7 @@
         "VNS_tag": "comprehension",
         "EL_tag": "Use icon/clip-art/photo",
         "how": "Use cut-out image as data object.",
-        "why": "Cut-out images can activate the chart and make it more understandable.",
+        "why": "It can activate the chart and make it more understandable.",
         "eg_content": [
             "chart-axis",
             "chart-mark",
@@ -875,7 +875,7 @@
         "VNS_tag": "comprehension",
         "EL_tag": "Use icon/clip-art/photo",
         "how": "Use cut-out images as segmented data objects.",
-        "why": "Cut-out images can activate the chart and make it more understandable.",
+        "why": "It can activate the chart and make it more understandable.",
         "eg_content": [
             "chart-axis",
             "chart-mark"
@@ -901,7 +901,7 @@
         "VNS_tag": "comprehension",
         "EL_tag": "Use icon/clip-art/photo",
         "how": "Use cut-out images to form the profile of juxtaposed data objects.",
-        "why": "Cut-out images can activate the chart and make it more understandable.",
+        "why": "It can activate the chart and make it more understandable.",
         "eg_content": [
             "chart-mark"
         ],
@@ -920,7 +920,7 @@
         "VNS_tag": "comprehension",
         "EL_tag": "Use icon/clip-art/photo",
         "how": "Use cut-out images to form the profile of segmented and juxtaposed data objects.",
-        "why": "Cut-out images can activate the chart and make it more understandable.",
+        "why": "It can activate the chart and make it more understandable.",
         "eg_content": [
             "chart-mark"
         ],
@@ -939,7 +939,7 @@
         "VNS_tag": "comprehension",
         "EL_tag": "Use icon/clip-art/photo",
         "how": "Use background mask.",
-        "why": "Using background mask can both retain the complete chart and provide image information.",
+        "why": "It can both retain the complete chart and provide image information.",
         "eg_content": [
             "title",
             "chart-mark",
@@ -972,7 +972,7 @@
         "VNS_tag": "comprehension",
         "EL_tag": "Use icon/clip-art/photo",
         "how": "Use overall element mask.",
-        "why": "Using layer mask can both retain the chart and image information.",
+        "why": "It can both retain the chart and image information.",
         "eg_content": [
             "chart-mark"
         ],
@@ -991,7 +991,7 @@
         "VNS_tag": "comprehension",
         "EL_tag": "Use icon/clip-art/photo",
         "how": "Use individual element mask.",
-        "why": "Using layer mask can both retain the chart and image information.",
+        "why": "It can both retain the chart and image information.",
         "eg_content": [
             "chart-mark"
         ],
@@ -1010,7 +1010,7 @@
         "VNS_tag": "comprehension",
         "EL_tag": "Use icon/clip-art/photo",
         "how": "Arrange objects within a special shape.",
-        "why": "Using layer mask can both retain the chart and image information.",
+        "why": "It can both retain the chart and image information.",
         "eg_content": [
             "chart-mark"
         ],
@@ -1029,7 +1029,7 @@
         "VNS_tag": "emotion",
         "EL_tag": "Use colors",
         "how": "Use a color ramp to express emotions.",
-        "why": "Colors can associate past experiences and drive emotions.",
+        "why": "It can associate past experiences and drive emotions.",
         "eg_content": [
             "all1",
             "all2",
@@ -1083,7 +1083,7 @@
         "VNS_tag": "emotion",
         "EL_tag": "Use colors",
         "how": "Use bi-color to express emotions.",
-        "why": "Colors can associate past experiences and drive emotions.",
+        "why": "It can associate past experiences and drive emotions.",
         "eg_content": [
             "all1",
             "all2",
@@ -1137,7 +1137,7 @@
         "VNS_tag": "emotion",
         "EL_tag": "Use colors",
         "how": "Use multiple colors to express emotions.",
-        "why": "Colors can associate past experiences and drive emotions.",
+        "why": "It can associate past experiences and drive emotions.",
         "eg_content": [
             "all1",
             "all2",
@@ -1347,7 +1347,7 @@
         "VNS_tag": "style",
         "EL_tag": "Use dark sides & shadows",
         "how": "Use dark sides or put shadows around data objects.",
-        "why": "Gradient shadows makes the flat design more complex and realistic while retaining its simple style.",
+        "why": "Shadows make the flat design more complex and realistic while retaining its simple style.",
         "eg_content": [
             "all1",
             "all2",

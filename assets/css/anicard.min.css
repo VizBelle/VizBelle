@@ -692,7 +692,7 @@ footer .footer-text {
 }
 
 .card-deck .card-footer-bottom {
-    color: #511F03;
+    color: #000000;
     font-size: 0.75rem;
     font-weight: 400;
     padding: 0.125rem 1rem;
@@ -704,7 +704,7 @@ footer .footer-text {
 }
 
 .exploration .card-deck .card-footer-bottom{
-    color: #511F03;
+    color: #000000;
     font-size: 0.75rem;
     font-weight: 400;
     padding: 0.125rem 1rem;
@@ -720,7 +720,7 @@ footer .footer-text {
 .distribution .card-deck .card-footer-bottom,
 .trend .card-deck .card-footer-bottom,
 .association .card-deck .card-footer-bottom {
-    color: #511F03;
+    color: #000000;
     font-size: 0.75rem;
     font-weight: 400;
     padding: 0.125rem 1rem;
@@ -733,7 +733,7 @@ footer .footer-text {
 
 .comprehension .card-deck .card-footer-bottom,
 .emotion .card-deck .card-footer-bottom {
-    color: #511F03;
+    color: #000000;
     font-size: 0.75rem;
     font-weight: 400;
     padding: 0.125rem 1rem;
@@ -745,7 +745,7 @@ footer .footer-text {
 }
 
 .style .card-deck .card-footer-bottom {
-    color: #511F03;
+    color: #000000;
     font-size: 0.75rem;
     font-weight: 400;
     padding: 0.125rem 1rem;
@@ -758,6 +758,19 @@ footer .footer-text {
 
 .card-deck .card-footer-bottom:active {
     background-color: #FDEFD8;
+}
+
+.comprehension .card-deck .card-footer-bottom:active,
+.emotion .card-deck .card-footer-bottom:active {
+    background-color: #cde5e7;
+}
+
+.style .card-deck .card-footer-bottom:active {
+    background-color: #f0bebf;
+}
+
+.exploration .card-deck .card-footer-bottom:active {
+    background-color: #cecaca;
 }
 
 .card-deck .card-footer a {

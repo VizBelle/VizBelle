@@ -381,7 +381,7 @@
         "VNS_tag": "distribution",
         "EL_tag": "使用排版",
         "how": "在形状内部排列对象。",
-        "why": "它可以提升图面规律性，从而更直观地展示分布。",
+        "why": "它可以通过排版提升规律性, 展现需要汇总的分布状况。",
         "eg_content": [
             "chart-mark"
         ],
@@ -665,7 +665,7 @@
         "VNS_tag": "comprehension",
         "EL_tag": "使用icon/插画/照片",
         "how": "将icon/插画/照片置于对象之上。",
-        "why": "剪贴图像可以活跃图表，并使其更容易理解。",
+        "why": "它可以活跃图表，并使其更容易理解。",
         "eg_content": [
             "chart-mark"
         ],
@@ -684,7 +684,7 @@
         "VNS_tag": "comprehension",
         "EL_tag": "使用icon/插画/照片",
         "how": "添加icon/插画/照片至顶端。",
-        "why": "剪贴图像可以活跃图表，并使其更容易理解。",
+        "why": "它可以活跃图表，并使其更容易理解。",
         "eg_content": [
             "title",
             "chart-axis",
@@ -731,7 +731,7 @@
         "VNS_tag": "comprehension",
         "EL_tag": "使用icon/插画/照片",
         "how": "添加icon/插画/照片至上盖。",
-        "why": "剪贴图像可以活跃图表，并使其更容易理解。",
+        "why": "它可以活跃图表，并使其更容易理解。",
         "eg_content": [
             "chart-mark"
         ],
@@ -750,7 +750,7 @@
         "VNS_tag": "comprehension",
         "EL_tag": "使用icon/插画/照片",
         "how": "添加icon/插画/照片至末端。",
-        "why": "剪贴图像可以活跃图表，并使其更容易理解。",
+        "why": "它可以活跃图表，并使其更容易理解。",
         "eg_content": [
             "chart-axis",
             "chart-mark"
@@ -776,7 +776,7 @@
         "VNS_tag": "comprehension",
         "EL_tag": "使用icon/插画/照片",
         "how": "添加icon/插画/照片至侧面。",
-        "why": "剪贴图像可以活跃图表，并使其更容易理解。",
+        "why": "它可以活跃图表，并使其更容易理解。",
         "eg_content": [
             "title",
             "chart-axis",
@@ -830,7 +830,7 @@
         "VNS_tag": "comprehension",
         "EL_tag": "使用icon/插画/照片",
         "how": "拉伸剪贴图像的一部分以代表数据对象。",
-        "why": "剪贴图像可以活跃图表，并使其更容易理解。",
+        "why": "它可以活跃图表，并使其更容易理解。",
         "eg_content": [
             "chart-mark"
         ],
@@ -849,7 +849,7 @@
         "VNS_tag": "comprehension",
         "EL_tag": "使用icon/插画/照片",
         "how": "使用剪贴图像作为数据对象。",
-        "why": "剪贴图像可以活跃图表，并使其更容易理解。",
+        "why": "它可以活跃图表，并使其更容易理解。",
         "eg_content": [
             "chart-axis",
             "chart-mark",
@@ -882,7 +882,7 @@
         "VNS_tag": "comprehension",
         "EL_tag": "使用icon/插画/照片",
         "how": "使用剪贴图像作为分割后的数据对象。",
-        "why": "剪贴图像可以活跃图表，并使其更容易理解。",
+        "why": "它可以活跃图表，并使其更容易理解。",
         "eg_content": [
             "chart-axis",
             "chart-mark"
@@ -908,7 +908,7 @@
         "VNS_tag": "comprehension",
         "EL_tag": "使用icon/插画/照片",
         "how": "使用剪切图像作为并列数据对象的轮廓。",
-        "why": "剪贴图像可以活跃图表，并使其更容易理解。",
+        "why": "它可以活跃图表，并使其更容易理解。",
         "eg_content": [
             "chart-mark"
         ],
@@ -927,7 +927,7 @@
         "VNS_tag": "comprehension",
         "EL_tag": "使用icon/插画/照片",
         "how": "使用剪切图像作为分割后的并列数据对象的轮廓。",
-        "why": "剪贴图像可以活跃图表，并使其更容易理解。",
+        "why": "它可以活跃图表，并使其更容易理解。",
         "eg_content": [
             "chart-mark"
         ],
@@ -946,7 +946,7 @@
         "VNS_tag": "comprehension",
         "EL_tag": "使用icon/插画/照片",
         "how": "使用背景蒙版",
-        "why": "使用背景蒙版可以保持图表完整，并且提供图片信息。",
+        "why": "它可以保持图表完整，并且提供图片信息。",
         "eg_content": [
             "title",
             "chart-mark",
@@ -979,7 +979,7 @@
         "VNS_tag": "comprehension",
         "EL_tag": "使用icon/插画/照片",
         "how": "使用统一的元素蒙版。",
-        "why": "使用图层蒙版可以同时保留图表和图像的信息。",
+        "why": "它可以同时保留图表和图像的信息。",
         "eg_content": [
             "chart-mark"
         ],
@@ -998,7 +998,7 @@
         "VNS_tag": "comprehension",
         "EL_tag": "使用icon/插画/照片",
         "how": "使用独立的元素蒙版。",
-        "why": "使用图层蒙版可以同时保留图表和图像的信息。",
+        "why": "它可以同时保留图表和图像的信息。",
         "eg_content": [
             "chart-mark"
         ],
@@ -1017,7 +1017,7 @@
         "VNS_tag": "comprehension",
         "EL_tag": "使用icon/插画/照片",
         "how": "在特殊形状内部排列对象。",
-        "why": "使用图层蒙版可以同时保留图表和图像的信息。",
+        "why": "它可以同时保留图表和图像的信息。",
         "eg_content": [
             "chart-mark"
         ],
@@ -1036,7 +1036,7 @@
         "VNS_tag": "emotion",
         "EL_tag": "使用颜色",
         "how": "使用梯度色来表达情感。",
-        "why": "颜色可以与过往经验相联系并激发情感。",
+        "why": "它可以与过往经验相联系并激发情感。",
         "eg_content": [
             "all1",
             "all2",
@@ -1090,7 +1090,7 @@
         "VNS_tag": "emotion",
         "EL_tag": "使用颜色",
         "how": "使用双色来表达情感。",
-        "why": "颜色可以与过往经验相联系并激发情感。",
+        "why": "它可以与过往经验相联系并激发情感。",
         "eg_content": [
             "all1",
             "all2",
@@ -1144,7 +1144,7 @@
         "VNS_tag": "emotion",
         "EL_tag": "使用颜色",
         "how": "使用多色来表达情感。",
-        "why": "颜色可以与过往经验相联系并激发情感。",
+        "why": "它可以与过往经验相联系并激发情感。",
         "eg_content": [
             "all1",
             "all2",
@@ -1354,7 +1354,7 @@
         "VNS_tag": "style",
         "EL_tag": "使用加深局部&阴影",
         "how": "加深局部，或在数据对象周围添加阴影。",
-        "why": "渐变阴影使平面设计更加复杂和逼真，同时保留其简单的风格。",
+        "why": "阴影使平面设计更加复杂和逼真，同时保留其简单的风格。",
         "eg_content": [
             "all1",
             "all2",
