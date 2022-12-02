@@ -757,20 +757,20 @@ footer .footer-text {
 }
 
 .card-deck .card-footer-bottom:active {
-    background-color: #FDEFD8;
+    background-color: #fcf5dc;
 }
 
 .comprehension .card-deck .card-footer-bottom:active,
 .emotion .card-deck .card-footer-bottom:active {
-    background-color: #cde5e7;
+    background-color: #d9eef1;
 }
 
 .style .card-deck .card-footer-bottom:active {
-    background-color: #f0bebf;
+    background-color: #fbe9e9;
 }
 
 .exploration .card-deck .card-footer-bottom:active {
-    background-color: #cecaca;
+    background-color: #ededec;
 }
 
 .card-deck .card-footer a {
